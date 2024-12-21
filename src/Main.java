@@ -69,8 +69,9 @@ public class Main {
 
         System.out.println("\nЗадание 7");
         int friday = 6;
-        for (; friday <= 31; friday += 7) {
+        while (friday <= 31) {
             System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет");
+            friday += 7;
         }
 
         System.out.println("\nЗадание 8");
